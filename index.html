@@ -23,32 +23,48 @@
     <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkLabel"><img src="img/design.today.svg" alt="design today logo"></h5>
-          <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button> -->
-          <img src="img/Group 7.png" alt="3 line button">
+    
+  <div class="offcanvas offcanvas-start show text-bg-dark sidebar" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkLabel"><img src="img/design.today.svg" alt="design today logo"></h5>
+        <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button> -->
+        <img src="img/Group 7.png" alt="3 line button">
+      </div>
+      <nav class="offcanvas-body">
+        <ul class="p-3">
+          <li><img class="p-3 mfont" src="img/Component 5 – 2.png" alt="home icon">Home</li>
+          <li><img class="p-3" src="img/Component 3 – 2.png" alt="explore icon">Explore</li>
+          <li><img class="p-3" src="img/Component 4 – 2.png" alt="folder icon">Folders</li>
+          <li><img class="p-3" src="img/Component 8 – 2.png" alt="star icon">Favourites</li>
+          <li><img class="p-3" src="img/Component 1 – 2.png" alt="messenger icon">activites</li>
+        </ul>
+        <ul class="p-3">
+          <h6>following</h6>
+          <li><img class="p-3" src="img/Rectangle 40.png" alt="sajon profile">Sajon</li>
+          <li><img class="p-3" src="img/Rectangle 41.png" alt="Tran Mau Tri Tam profile">Tran Mau Tri Tam</li>
+          <li><img class="p-3" src="img/Rectangle 42.png" alt="Ghani Pradita profile">Ghani Pradita</li>
+          <li><img class="p-3" src="img/Rectangle 43.png" alt="David Kovalev profile">David Kovalev</li>
+          <li><img class="p-3" src="img/Rectangle 44.png" alt="Ryan Putnam profile">Ryan Putnam</li>
+        </ul>
+        <button>Load more (15)</button>
+      </nav>
+  </div>
+  <!-- <div class="px-3 py-2 border-bottom mb-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-light text-dark me-2">Login</button>
+          <button type="button" class="btn btn-primary">Sign-up</button>
         </div>
-        <nav class="offcanvas-body">
-          <ul class="p-3">
-            <li><img class="p-3 mfont" src="img/Component 5 – 2.png" alt="home icon">Home</li>
-            <li><img class="p-3" src="img/Component 3 – 2.png" alt="explore icon">Explore</li>
-            <li><img class="p-3" src="img/Component 4 – 2.png" alt="folder icon">Folders</li>
-            <li><img class="p-3" src="img/Component 8 – 2.png" alt="star icon">Favourites</li>
-            <li><img class="p-3" src="img/Component 1 – 2.png" alt="messenger icon">activites</li>
-          </ul>
-          <ul class="p-3">
-            <h6>following</h6>
-            <li><img class="p-3" src="img/Rectangle 40.png" alt="sajon profile">Sajon</li>
-            <li><img class="p-3" src="img/Rectangle 41.png" alt="Tran Mau Tri Tam profile">Tran Mau Tri Tam</li>
-            <li><img class="p-3" src="img/Rectangle 42.png" alt="Ghani Pradita profile">Ghani Pradita</li>
-            <li><img class="p-3" src="img/Rectangle 43.png" alt="David Kovalev profile">David Kovalev</li>
-            <li><img class="p-3" src="img/Rectangle 44.png" alt="Ryan Putnam profile">Ryan Putnam</li>
-          </ul>
-        </nav>
+      </div>
     </div>
-    <div class="right_content">
+   -->
+   <div class="right_content">
       <header>
         <div class="searchform">
           <form action="">
@@ -67,111 +83,183 @@
         <div class="profile">
           <span>GO PRO!</span>
           <div class="smallicon">
-            <a href="Sindex.html"
+            <a href="#"
               ><img src="img/Component 11 – 2.png" alt="mailiconforheader" />
             </a>
             <i></i>
           </div>
           <div class="smallicon">
-            <a href="Sindex.html"><img src="img/Component 7 – 2.png" alt="iconforheader" /></a>
+            <a href="#"><img src="img/Component 7 – 2.png" alt="iconforheader" /></a>
             <i></i>
           </div>
-          <a href="sindex.html"
+          <a href="index.html"
             ><img
-              class="user_profile"
-              src="img/Group 79.png"
+              class="largeiconpofile"
+              src="img/Group 33.png"
               alt="man with yellow shirt"
           /></a>
           <button class="uploadbutton">UPLOAD</button>
         </div>
       </header>
-      <section class="section_info">
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Order ID</th>
-              <th>Name</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Total</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-            <tr>
-              <td>2020-09-29 95:57</td>
-              <td>200398</td>
-              <td>iPhone X 64Gb Grey</td>
-              <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
-            </tr>
-          </tbody>
-        </table>
+      <section class="category_section">
+        <div class="list">
+          <span>All</span>
+          <span>Web design</span>
+          <span>3D</span>
+          <span>App design</span>
+          <span>Animation</span>
+          <span>Illustration</span>
+          <span>Typography</span>
+        </div>
+        <div class="filter">
+          <button>
+            <img src="img/Group 18.png" alt="filter icon" />
+            <span>Filters</span>
+          </button>
+        </div>
+      </section>
+      <div class="section_imgs">
+        <div class="grid_img">
+          <div class="picturesection">
+            <img src="img/Rectangle 45.png" alt="ui components" />
+            <div class="imgs_icon">
+              <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+              <img class="twoicon" src="img/Component 6 – 2.png" alt=" heart icon" />
+            </div>
+          </div>
+          <span> UI Components for Unity Gaming</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+            <img src="img/Rectangle 46.png" alt="app blur series" />
+            <div class="imgs_icon">
+              <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+              <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Analytics Mobile App - Blurr Series</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 47.png" alt="app blur series" />
+              <div class="imgs_icon">
+                  <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                  <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Estaro - Dark-mode - Task Management App</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 48.png" alt="app blur series" />
+              <div class="imgs_icon">
+                <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Live streaming application for gamers.</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 45.png" alt="app blur series" />
+              <div class="imgs_icon">
+                <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Dark Mockup for Unity Gaming</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 46.png" alt="app blur series" />
+              <div class="imgs_icon">
+                <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>SMM - Social Media Management - App UI</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 47.png" alt="app blur series" />
+              <div class="imgs_icon">
+                <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Food App 2.0</span>
+        </div>
+        <div class="grid_img">
+          <div class="picturesection">
+              <img src="img/Rectangle 48.png" alt="app blur series" />
+              <div class="imgs_icon">
+                <img class="twoicon" src="img/Component 10 – 1.png" alt="plus icon" />
+                <img class="twoicon" src="img/Component 6 – 2.png" alt="heart icon" />
+            </div>
+          </div>
+          <span>Live streaming application for gamers.</span>
+        </div>
+      </div>
+      <div class="moreinfobt">
+        <button>Load more</button>
+      </div>
+      <section class="follower_section">
+        <div class="followers">
+          <div class="follower_title">
+            <h1>Top Designers</h1>
+            <span><a href="#">View all</a></span>
+          </div>
+          <div class="section_users">
+            <div class="designer">
+              <img src="img/Rectangle 65.png" alt="Tran Mau Tri Tam" />
+              <h3>Tran Mau Tri Tam</h3>
+              <span>Sai Gon, Vietnam</span>
+              <button id="userfollowing">Following</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 69.png" alt="Ghulam Rasool photo" />
+              <h3>Ghulam Rasool</h3>
+              <span>Dubai</span>
+              <button>Follow</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 66.png" alt="Zhenya Rynzhuk" />
+              <h3>Zhenya Rynzhuk</h3>
+              <span>New York City, NY</span>
+              <button>Follow</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 70.png" alt="Ghani Pradita photo" />
+              <h3>Ghani Pradita</h3>
+              <span>Yogyakarta, Indonesia</span>
+              <button id="userfollowing">Following</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 67.png" alt="Sajon photo" />
+              <h3>Sajon</h3>
+              <span class="otherprofile">Earth</span>
+              <button id="userfollowings">Following</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 71.png" alt="David Kovalev" />
+              <h3>David Kovalev</h3>
+              <span>Sarasota, FL</span>
+              <button id="userfollowing">Following</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 68.png" alt="Ryan Putnam" />
+              <h3>Ryan Putnam</h3>
+              <span>Colorado Springs</span>
+              <button id="userfollowing">Following</button>
+            </div>
+            <div class="designer">
+              <img src="img/Rectangle 72.png" alt="Dmitry Lauretsky photo" />
+              <h3>Dmitry Lauretsky</h3>
+              <span>Omsk, Russia</span>
+              <button>Follow</button>
+            </div>
+          </div>
+        </div>
       </section>
       <footer>
         <div class="footer_lists">
@@ -266,7 +354,7 @@
             <div>
               <ul>
                 <li>
-                  <a class="footer_title" href="Sindex.html">Directories</a>
+                  <a class="footer_title" href="#">Directories</a>
                 </li>
                 <li>
                   <a href="#">Top designers</a>
@@ -295,17 +383,15 @@
         </div>
         <div class="lastfooter">
           <div class="footer_icon">
-            <img src="images/fbicon.png" alt="fb icon" />
-            <img src="images/instagramicon.png" alt="instagam icon" />
-            <img src="images/twittericon.png" alt="twitter icon" />
+            <img src="img/Component 12 – 2.png" alt="fb icon" />
+            <img src="img/Component 13 – 2.png" alt="instagam icon" />
+            <img src="img/Component 14 – 2.png" alt="twitter icon" />
           </div>
           <div class="footer_text">
             <span>For</span> <span class="smartacdmy">Smartacademy</span>
           </div>
         </div>
       </footer>
-    
-
-    <script></script>
+    </div>
 </body>
 </html>
