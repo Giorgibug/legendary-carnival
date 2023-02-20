@@ -24,37 +24,58 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
-
-
 <body>
-    <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkLabel"><img src="img/design.today.svg" alt="design today logo"></h5>
-          <!-- <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button> -->
-          <img src="img/Group 7.png" alt="3 line button">
-        </div>
-        <nav class="offcanvas-body">
-          <ul class="p-3">
-            <li><img class="p-3 mfont" src="img/Component 5 – 2.png" alt="home icon">Home</li>
-            <li><img class="p-3" src="img/Component 3 – 2.png" alt="explore icon">Explore</li>
-            <li><img class="p-3" src="img/Component 4 – 2.png" alt="folder icon">Folders</li>
-            <li><img class="p-3" src="img/Component 8 – 2.png" alt="star icon">Favourites</li>
-            <li><img class="p-3" src="img/Component 1 – 2.png" alt="messenger icon">activites</li>
-          </ul>
-          <ul class="p-3">
-            <h6>following</h6>
-            <li><img class="p-3" src="img/Rectangle 40.png" alt="sajon profile">Sajon</li>
-            <li><img class="p-3" src="img/Rectangle 41.png" alt="Tran Mau Tri Tam profile">Tran Mau Tri Tam</li>
-            <li><img class="p-3" src="img/Rectangle 42.png" alt="Ghani Pradita profile">Ghani Pradita</li>
-            <li><img class="p-3" src="img/Rectangle 43.png" alt="David Kovalev profile">David Kovalev</li>
-            <li><img class="p-3" src="img/Rectangle 44.png" alt="Ryan Putnam profile">Ryan Putnam</li>
-          </ul>
-        </nav>
+  <main>
+    <div class="sidebar">
+      <div class="logo">
+        <img src="img/design.today.svg" alt="design today logo">
+        <img src="img/Group 7.png" alt="tree line icon" />
+      </div>
+      <nav class="sidebarnav">
+        <ul>
+          <li>
+            <a href="index.html">
+              <img src="img/Component 5 – 2.png" alt="home icon" />Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/Component 3 – 2.png" alt="search icon" />Explore</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/Component 4 – 2.png" alt="folder icon" />Folders</a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="img/Component 8 – 2.png" alt="star icon" />Favourites</a>
+          </li>
+          <li>
+            <a href="index.html"
+              ><img
+                src="img/Component 1 – 2.png" alt="messenger icon" />Activites</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="follower">
+        <span>FOLLOWING</span>
+        <ul>
+          <li><img class="p-3" src="img/Rectangle 40.png" alt="sajon profile">Sajon</li>
+          <li><img class="p-3" src="img/Rectangle 41.png" alt="Tran Mau Tri Tam profile">Tran Mau Tri Tam</li>
+          <li><img class="p-3" src="img/Rectangle 42.png" alt="Ghani Pradita profile">Ghani Pradita</li>
+          <li><img class="p-3" src="img/Rectangle 43.png" alt="David Kovalev profile">David Kovalev</li>
+          <li><img class="p-3" src="img/Rectangle 44.png" alt="Ryan Putnam profile">Ryan Putnam</li>
+        </ul>
+        <button>Load more (15)</button>
+      </div>
     </div>
     <div class="right_content">
       <header>
         <div class="searchform">
-          <form action="">
+          <form action="search">
             <label for="search">
               <input
                 type="text"
@@ -76,13 +97,15 @@
             <i></i>
           </div>
           <div class="smallicon">
-            <a href="index.html"><img src="img/Component 7 – 2.png" alt="iconforheader" /></a>
+            <a href="index.html"
+              ><img src="img/Component 7 – 2.png" alt="iconforheader"
+            /></a>
             <i></i>
           </div>
           <a href="index.html"
             ><img
-              class="user_profile"
-              src="img/Group 79.png"
+              class="largeiconpofile"
+              src="img/Group 33.png"
               alt="man with yellow shirt"
           /></a>
           <button class="uploadbutton">UPLOAD</button>
@@ -93,96 +116,99 @@
           <thead>
             <tr>
               <th>Date</th>
-              <th>Order ID</th>
+              <th class="tabletd">Order ID</th>
               <th>Name</th>
               <th>Price</th>
-              <th>Quantity</th>
-              <th>Total</th>
+              <th class="tabletd">Quantity</th>
+              <th class="tabletd">Total</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
             <tr>
               <td>2020-09-29 95:57</td>
-              <td>200398</td>
+              <td class="tabletd">200398</td>
               <td>iPhone X 64Gb Grey</td>
               <td>$ 999.00</td>
-              <td>1</td>
-              <td>$ 999.00</td>
+              <td class="tabletd">1</td>
+              <td class="tabletd">$ 999.00</td>
             </tr>
           </tbody>
         </table>
       </section>
+      <div class="moreinfobt">
+        <button>Load more</button>
+      </div>
       <footer>
         <div class="footer_lists">
           <div class="footer_container">
             <div>
               <ul>
                 <li>
-                  <a class="footer_title" href="#">For designers</a>
+                  <a class="footer_title" href="index.html">For designers</a>
                 </li>
                 <li>
                   <a href="#">Go Pro!</a>
@@ -213,7 +239,7 @@
             <div>
               <ul>
                 <li>
-                  <a class="footer_title" href="#">Hire designers</a>
+                  <a class="footer_title" href="index.html">Hire designers</a>
                 </li>
                 <li>
                   <a href="#">Post a job opening</a>
@@ -269,7 +295,7 @@
             <div>
               <ul>
                 <li>
-                  <a class="footer_title" href="index.html">Directories</a>
+                  <a class="footer_title" href="#">Directories</a>
                 </li>
                 <li>
                   <a href="#">Top designers</a>
@@ -298,17 +324,18 @@
         </div>
         <div class="lastfooter">
           <div class="footer_icon">
-            <img src="images/fbicon.png" alt="fb icon" />
-            <img src="images/instagramicon.png" alt="instagam icon" />
-            <img src="images/twittericon.png" alt="twitter icon" />
+            <img src="img/Component 12 – 2.png" alt="fb icon" />
+            <img src="img/Component 13 – 2.png" alt="instagam icon" />
+            <img src="img/Component 14 – 2.png" alt="twitter icon" />
           </div>
           <div class="footer_text">
             <span>For</span> <span class="smartacdmy">Smartacademy</span>
           </div>
         </div>
       </footer>
-    
-
-    <script></script>
+    </div>
+  </main>
 </body>
+
+
 </html>
